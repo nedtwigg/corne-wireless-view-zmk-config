@@ -21,10 +21,21 @@
             label = "Base";
             bindings = <
 &kp TAB    &kp B  &kp Y  &kp O     &kp U     &kp SQT      &kp SEMI  &kp L      &kp D  &kp W  &kp V  &kp Z
-&none      &kp C  &kp I  &kp E     &kp A     &kp COMMA    &kp DOT   &kp H      &kp T  &kp S  &kp N  &kp Q
+&sl 1      &kp C  &kp I  &kp E     &kp A     &kp COMMA    &kp DOT   &kp H      &kp T  &kp S  &kp N  &kp Q
 &kp LCTRL  &kp G  &kp X  &kp J     &kp K     &kp MINUS    &kp FSLH  &kp R      &kp M  &kp F  &kp P  &none
                          &kp LALT  &kp LGUI  &kp LSHFT    &kp RET   &kp SPACE  &none
             >;
+        };
+
+        num_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&sl 0   &trans  &trans  &trans  &kp N0  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "num_layer";
         };
     };
 };

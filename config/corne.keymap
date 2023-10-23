@@ -30,6 +30,36 @@
             bindings = <&kp LA(DELETE)>;
             key-positions = <19 20 21>;
         };
+
+        c_paren_open {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+
+        c_paren_close {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        c_bracket_open {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        c_bracket_close {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        c_equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <28 29>;
+        };
+
+        c_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {

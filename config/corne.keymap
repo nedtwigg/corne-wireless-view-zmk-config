@@ -60,6 +60,16 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <30 31>;
         };
+
+        c_nav {
+            bindings = <&mo 2>;
+            key-positions = <14 13>;
+        };
+
+        c_num {
+            bindings = <&mo 1>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
@@ -90,6 +100,17 @@
             >;
 
             label = "num";
+        };
+
+        nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp K_VOLUME_UP    &kp HOME  &kp UP    &kp END    &kp PAGE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp K_VOLUME_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp K_MUTE         &trans    &trans    &trans     &trans         &trans
+                        &trans  &trans  &trans    &trans             &trans    &trans
+            >;
+
+            label = "nav";
         };
     };
 };

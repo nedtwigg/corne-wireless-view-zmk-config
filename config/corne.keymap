@@ -70,6 +70,21 @@
             bindings = <&mo 1>;
             key-positions = <1 2>;
         };
+
+        c_copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <14 3>;
+        };
+
+        c_paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <3 16>;
+        };
+
+        c_cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <14 16>;
+        };
     };
 
     keymap {

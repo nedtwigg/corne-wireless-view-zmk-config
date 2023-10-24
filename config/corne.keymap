@@ -13,22 +13,22 @@
 
         c_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 15>;
+            key-positions = <19 20>;
         };
 
         c_bkspW {
             bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <14 15 16>;
+            key-positions = <19 20 21>;
         };
 
         c_delete {
             bindings = <&kp DELETE>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
 
         c_deleteW {
             bindings = <&kp LA(DELETE)>;
-            key-positions = <19 20 21>;
+            key-positions = <20 21 22>;
         };
 
         c_paren_open {
